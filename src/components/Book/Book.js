@@ -10,6 +10,7 @@ import {
   MuiPickersUtilsProvider,
   KeyboardDatePicker,
 } from '@material-ui/pickers';
+import Bookings from '../Bookings/Bookings';
 
 
 
@@ -91,6 +92,7 @@ const Book = () => {
       <Button onClick={handleBooking} variant="contained" color="primary">Book Now</Button>
 
     </MuiPickersUtilsProvider>
+    <Bookings></Bookings>
 
 
         </div>
